@@ -10,16 +10,18 @@
     <Button
         android:id="@+id/exitBtn2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="682dp"
-        android:layout_marginEnd="322dp"
-        android:layout_marginBottom="1dp"
-        android:text="EXIT" />
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="662dp"
+        android:layout_marginEnd="312dp"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/exit_button"
+        android:text="EXIT"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/button"
@@ -33,8 +35,9 @@
         android:layout_marginTop="271dp"
         android:layout_marginEnd="127dp"
         android:layout_marginBottom="297dp"
-        android:background="#D5D5D5"
-        android:text="Click to Start!" />
+        android:background="@drawable/button_styles"
+        android:text="Click to Start!"
+        android:textColor="#FFFFFF" />
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -49,7 +52,7 @@
         android:layout_marginTop="3dp"
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="712dp"
-        android:background="#9AE2EE"
+        android:background="#FFFFFF"
         android:scrollbarThumbHorizontal="@drawable/background" />
 
     <TextView
@@ -115,7 +118,7 @@
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="149dp"
         android:animationCache="true"
-        android:background="#00A5FCEA">
+        android:background="#981D1D">
 
         <TableRow
             android:layout_width="match_parent"
@@ -127,7 +130,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:height="225"
-                android:background="#B2E3E1"
+                android:background="#CCFFFFFF"
                 android:text="Button" />
 
             <Button
@@ -136,8 +139,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:height="225"
-                android:background="#B4F8EA"
-                android:text="Button" />
+                android:background="#CC000000"
+                android:text="Button"
+                android:textColor="#FFFFFF" />
         </TableRow>
 
         <TableRow
@@ -150,7 +154,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:height="225"
-                android:background="#799899"
+                android:background="#CC000000"
                 android:text="Button"
                 android:textColor="#FFFFFF" />
 
@@ -160,9 +164,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:height="225"
-                android:background="#5B807E"
+                android:background="#CCFFFFFF"
                 android:text="Button"
-                android:textColor="#FBFBFB" />
+                android:textColor="#000000" />
         </TableRow>
 
         <TableRow

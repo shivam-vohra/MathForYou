@@ -8,7 +8,7 @@
     android:background="@drawable/background">
 
     <Button
-        android:id="@+id/button26"
+        android:id="@+id/go"
         android:layout_width="180dp"
         android:layout_height="180dp"
         android:layout_alignParentStart="true"
@@ -19,8 +19,9 @@
         android:layout_marginTop="271dp"
         android:layout_marginEnd="127dp"
         android:layout_marginBottom="297dp"
-        android:background="#D5D5D5"
-        android:text="Click to Start!" />
+        android:background="@drawable/button_styles"
+        android:text="Click to Start!"
+        android:textColor="#FFFEFE" />
 
     <ProgressBar
         android:id="@+id/progressBar6"
@@ -35,7 +36,7 @@
         android:layout_marginTop="3dp"
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="712dp"
-        android:background="#9AE2EE"
+        android:background="#FFFFFF"
         android:scrollbarThumbHorizontal="@drawable/background" />
 
     <TextView
@@ -113,7 +114,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:height="225"
-                android:background="#B2E3E1"
+                android:background="#CCFFFFFF"
                 android:text="Button" />
 
             <Button
@@ -122,8 +123,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:height="225"
-                android:background="#B4F8EA"
-                android:text="Button" />
+                android:background="#CC000000"
+                android:text="Button"
+                android:textColor="#FFFFFF" />
         </TableRow>
 
         <TableRow
@@ -136,7 +138,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:height="225"
-                android:background="#799899"
+                android:background="#CC000000"
                 android:text="Button"
                 android:textColor="#FFFFFF" />
 
@@ -146,9 +148,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:height="225"
-                android:background="#5B807E"
+                android:background="#CCFFFFFF"
                 android:text="Button"
-                android:textColor="#FBFBFB" />
+                android:textColor="#000000" />
         </TableRow>
 
         <TableRow
@@ -172,5 +174,7 @@
         android:layout_marginTop="674dp"
         android:layout_marginEnd="314dp"
         android:layout_marginBottom="9dp"
-        android:text="EXIT" />
+        android:background="@drawable/exit_button"
+        android:text="EXIT"
+        android:textColor="#FFFFFF" />
 </RelativeLayout>

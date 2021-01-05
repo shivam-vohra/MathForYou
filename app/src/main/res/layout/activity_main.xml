@@ -58,9 +58,9 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="402dp"
-        android:layout_marginEnd="146dp"
-        android:layout_marginBottom="267dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="416dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="253dp"
         android:text="Division" />
 </RelativeLayout>
