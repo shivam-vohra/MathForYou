@@ -130,7 +130,7 @@
                 android:layout_weight="1"
                 android:height="225dp"
                 android:background="#CCFFFFFF"
-                android:text="Button" />
+                android:text="Button" />s
 
             <Button
                 android:id="@+id/button2"
